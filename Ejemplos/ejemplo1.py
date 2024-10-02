@@ -1,0 +1,27 @@
+"""
+nombre=5
+print(type(nombre))
+nombre="Dani"
+print(type(nombre))
+letra=nombre[0]
+print(letra)
+dni="11111111A"
+letra=dni[-1]
+print(letra)
+codigo="28034"
+ciudad=codigo[0:2]
+print(ciudad)
+poblacion=codigo[2:3]
+#poblacion=codigo[2]
+print(poblacion)
+barrio=codigo[-2:]
+print(barrio) """
+a=5
+b=5
+print(id(a))
+print(id(b))
+b=a+1
+c=6
+print(id(a))
+print(id(b))
+print(id(c))
