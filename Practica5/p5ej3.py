@@ -30,4 +30,10 @@ palabra=""
 for letra in letras:
     for p in codigo:
         if codigo[p] == letra:
-            print('si esta')
+            palabra += p
+            
+            
+if palabra != '':
+    print("La palabra traducida es:", palabra)
+else:
+    print("Palabra vacía")
