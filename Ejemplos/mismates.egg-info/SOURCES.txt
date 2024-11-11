@@ -1,0 +1,8 @@
+setup.py
+mismates/__init__.py
+mismates/operaciones.py
+mismates/potencias.py
+mismates.egg-info/PKG-INFO
+mismates.egg-info/SOURCES.txt
+mismates.egg-info/dependency_links.txt
+mismates.egg-info/top_level.txt

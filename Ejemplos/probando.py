@@ -1,8 +1,11 @@
 #import potencias
 
+import mismates
+
 from mismates import operaciones,potencias
 
 from mismates.operaciones import suma
+
 
 import os 
 
