@@ -1,4 +1,6 @@
 def validarUsuario(usuario):
+    if(usuario=="0"):
+        return True
     if(len(usuario)>=6 and len(usuario)<=12):
         if usuario.isalnum():
             return True
