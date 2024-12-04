@@ -1,4 +1,4 @@
-#DANIEL
+#DANIEL DIAZ
 def funcion2a(fichero):
     sitios = []
     with open(fichero, "r") as f:

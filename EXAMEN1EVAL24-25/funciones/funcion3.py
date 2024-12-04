@@ -1,3 +1,5 @@
+#DANIEL DIAZ
+
 def funcion3(sitios_empleados,sitios_trabajo):
     personas = {}
     with open(sitios_empleados, "r") as f:
