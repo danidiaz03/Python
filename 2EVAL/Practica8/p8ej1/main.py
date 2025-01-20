@@ -7,5 +7,11 @@ while True:
         telefono=input("\nIntroduce telefono\n")
         email=input("\nIntroduce email\n")
         agenda.añadirContacto(nombre,telefono,email)
+    
+    if opc == 2:
+        criterio=input("Introduce criterio a buscar: (nombre,email.telefono)\n")
+        dato=input("Introduce el dato a buscar:\n")
+        buscar=agenda.buscarContacto(criterio,dato)
+    
     if opc == 3:
         agenda.mostrarContactos()
