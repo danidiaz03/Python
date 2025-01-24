@@ -12,6 +12,15 @@ while True:
         criterio=input("Introduce criterio a buscar: (nombre,email.telefono)\n")
         dato=input("Introduce el dato a buscar:\n")
         buscar=agenda.buscarContacto(criterio,dato)
+        if buscar:
+            print("Se ha encontrado el dato "+criterio+" con valor " +dato+"\n")
+        else:
+            print("No se ha encontrado\n")
     
     if opc == 3:
         agenda.mostrarContactos()
+        
+    if opc == 4:
+        criterio=input("Introduce criterio a buscar: (nombre,email.telefono)\n")
+        dato=input("Introduce el dato a eliminar:\n")
+        agenda.eliminarContacto(dato,criterio)
